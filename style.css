@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  background-color: #ffffff;
+  color: #111;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.logo {
+  max-width: 220px;
+  margin-bottom: 30px;
+}
+
+.intro {
+  font-size: 18px;
+  max-width: 400px;
+  margin-bottom: 10px;
+}
+
+.status {
+  font-size: 14px;
+  color: #666;
+}
