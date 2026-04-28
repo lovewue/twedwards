@@ -188,3 +188,61 @@ body {
     font-size: 16px;
   }
 }
+
+/* --- Product Page Layout --- */
+.product-page-inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: start;
+  padding: 60px 0;
+}
+
+/* Image control */
+.product-image img {
+  width: 100%;
+  max-width: 450px;   /* 👈 key line */
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Product info */
+.product-info h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  font-weight: normal;
+}
+
+.product-intro {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.price {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+/* Product copy */
+.product-copy {
+  margin-top: 30px;
+}
+
+.product-copy h2 {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: normal;
+}
+
+.product-copy ul {
+  padding-left: 18px;
+}
+
+.product-copy li {
+  margin-bottom: 6px;
+  font-size: 14px;
+  color: #444;
+}
